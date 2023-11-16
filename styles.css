@@ -4,10 +4,22 @@
     --Playfair: "Playfair Display", serif;
     --Quicksand: "Quicksand", sans-serif;
     --Roboto: "Roboto", sans-serif;
+    --bgColor: #333;
+    --musicBg: #ffe0e5;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: var(--bgColor);
+}
+
+.music-container{
+    background: var(--musicBg);
 }
