@@ -6,12 +6,18 @@
     --Roboto: "Roboto", sans-serif;
     --bgColor: #333;
     --musicBg: #ffe0e5;
+    --white: #FFFF;
+    --circleColor: #f53192;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: var(--Playfair);
 }
 
 .container{
@@ -30,3 +36,20 @@
     padding: 25px 35px;
     text-align: center;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--white);
+    color: var(--circleColor);
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+}
+
