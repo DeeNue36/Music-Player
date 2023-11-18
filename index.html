@@ -30,6 +30,39 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
+
+            <img src="assets/24 Forest Hills Drive_1.jpeg" class="song-img">
+            <h1> 
+                Wet Dreamz 
+            </h1>
+            <p> 
+                J.Cole 
+            </p>
+
+            <!-- <audio controls id="song">: this was first used to show the mp3 player and with this attribute present, the browser will offer controls to allow the user to control audio playback, including volume, seeking, and pause/resume playback.-->
+            <audio id="song"></audio>
+                <source src="assets/J Cole - Wet Dreamz.mp3" type="audio/mpeg">
+            </audio>
+            
+            <input type="range" value="0" id="progress-bar">
+
+            <div class="song-controls">
+                <div>
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+
+                <div onclick="playPause()">
+                    <i class="fa-solid fa-play" id="controlIcon"></i>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
         </div>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
+</html>
