@@ -5,7 +5,7 @@
     --Quicksand: "Quicksand", sans-serif;
     --Roboto: "Roboto", sans-serif;
     --bgColor: #333;
-    --musicBg: #ffe0e5;
+    --musicBg: linear-gradient(to right bottom, #079dc9, #77afd9, #aec4e4, #d7dbec, #f5f5f5);
     --white: #FFFF;
     --circleColor: #f53192;
     --textColor: #333;
@@ -41,7 +41,7 @@ body{
 }
 
 .music-container{
-    background: var(--musicBg);
+    background-image: var(--musicBg);
     width: 400px;
     padding: 25px 35px;
     text-align: center;
